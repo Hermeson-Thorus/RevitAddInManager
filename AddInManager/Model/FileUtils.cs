@@ -126,7 +126,7 @@ public static class FileUtils
         else
         {
             var folderSize = GetFolderSize(directoryName);
-            if (folderSize > 50L)
+            if (folderSize > 50L && false)
             {
                 switch (FolderTooBigDialog.Show(directoryName, folderSize))
                 {
